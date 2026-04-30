@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  IMPORTANT: Replace "yourdomain.com" with your actual domain after deploy.
+  Vercel pe deploy hone ke baad: sitemap.xml mein "yourdomain.com" replace karo.
+  Example: sed -i 's/yourdomain.com/elitearena-xyz.vercel.app/g' public/sitemap.xml
+-->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://yourdomain.com/</loc><priority>1.0</priority><changefreq>daily</changefreq></url>
+  <url><loc>https://yourdomain.com/leaderboard</loc><priority>0.9</priority><changefreq>hourly</changefreq></url>
+  <url><loc>https://yourdomain.com/news</loc><priority>0.9</priority><changefreq>daily</changefreq></url>
+  <url><loc>https://yourdomain.com/register</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://yourdomain.com/login</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://yourdomain.com/compliance</loc><priority>0.5</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://yourdomain.com/privacy</loc><priority>0.4</priority><changefreq>yearly</changefreq></url>
+  <url><loc>https://yourdomain.com/terms</loc><priority>0.4</priority><changefreq>yearly</changefreq></url>
+</urlset>

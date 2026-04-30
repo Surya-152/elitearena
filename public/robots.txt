@@ -1,0 +1,22 @@
+User-agent: *
+Allow: /
+Allow: /leaderboard
+Allow: /privacy
+Allow: /terms
+
+# Block private pages from indexing
+Disallow: /dashboard
+Disallow: /wallet
+Disallow: /profile
+Disallow: /admin
+Disallow: /kyc
+Disallow: /support
+Disallow: /tournament/
+Disallow: /verify-email
+Disallow: /forgot-password
+
+# Sitemap location
+Sitemap: https://yourdomain.com/sitemap.xml
+
+# Crawl delay (optional — be nice to crawlers)
+Crawl-delay: 10

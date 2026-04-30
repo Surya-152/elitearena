@@ -1,0 +1,23 @@
+{
+  "name": "EliteArena — Esports Tournaments",
+  "short_name": "EliteArena",
+  "description": "India's most transparent esports tournament platform. BGMI, Free Fire MAX. Win real prizes.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#050508",
+  "theme_color": "#00e5ff",
+  "orientation": "portrait-primary",
+  "categories": ["games", "sports", "entertainment"],
+  "lang": "en-IN",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "screenshots": [],
+  "related_applications": [],
+  "prefer_related_applications": false
+}
